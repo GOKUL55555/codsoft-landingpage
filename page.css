@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(walpp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(75, 68, 68);
+    padding: 0px;
+    margin:  0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(80, 74, 74);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(231, 131, 106);
+    color: black;
+}
+.navbar li{
+    float: right;
+
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#world{
+    color: rgb(10, 10, 10);
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.content a{
+    font-size: 25px;
+    font-style: italic;
+    padding: 5px 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(26, 26, 27);
+    background-color: rgba(227, 235, 210, 0.445);
+    border-radius: 35px;
+    border-color: black;
+    box-shadow: 60%;
+}
+
+.content{
+    position: absolute;
+    top: 15%;
+    margin-left: 30%;
+}
+#travel{
+    justify-content: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    padding-top: 10%;
+    padding-left: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 120px;
+}
+.content a:hover{
+    background-color: rgb(159, 169, 202);
+    columns: rgb(37, 37, 39);
+}
+.content p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(196, 201, 204);
+}
